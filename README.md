@@ -1,18 +1,22 @@
-# CampusSense AI
+# EduPulse AI
 
-**CampusSense AI** is an intelligent student safety, wellness, and campus analytics platform designed for smart schools and colleges.
+**EduPulse AI** is an AI-powered student intelligence, safety, wellness, and campus analytics platform designed for smart schools and colleges.
 
 It helps institutions detect academic risk, student wellbeing concerns, safety issues, and campus hotspots before they become serious problems.
 
+## Live Demo
+
+🔗 **Live Project:** https://edupulse-ai-beige.vercel.app/
+
 ## Tagline
 
-**Sense risks. Support students. Secure campuses.**
+"Every footprint tells a story. USIP listens before it becomes a dropout, a crisis, or a missed opportunity."
 
 ## Problem Statement
 
-Educational institutions generate large amounts of student and campus data every day, but most of this data remains disconnected across paperwork, spreadsheets, fee systems, attendance records, academic reports, and manual communication channels.
+Educational institutions generate large amounts of student and campus data every day, but most of this data remains disconnected across paperwork, spreadsheets, attendance systems, academic records, fee data, counselling notes, and manual communication channels.
 
-Because of this, schools and colleges often identify problems too late, such as:
+Because of this, institutions often identify student problems too late, such as:
 
 - Students at risk of dropping out
 - Declining academic performance
@@ -22,13 +26,13 @@ Because of this, schools and colleges often identify problems too late, such as:
 - Delayed parent-teacher communication
 - Lack of verified student achievement records
 
-CampusSense AI solves this by converting institutional data into actionable intelligence.
+EduPulse AI solves this by converting institutional data into actionable intelligence.
 
 ## Solution
 
-CampusSense AI is a student intelligence and campus safety ecosystem that uses AI-based risk scoring, NLP-style report classification, and campus pattern detection to support early intervention.
+EduPulse AI is a student intelligence and campus safety ecosystem that uses explainable AI-based risk scoring, NLP-style report classification, and campus pattern detection to support early intervention.
 
-The platform helps administrators, teachers, counsellors, parents, and security teams take timely action.
+The platform helps administrators, teachers, counsellors, parents, students, and security teams take timely action.
 
 ## Key Features
 
@@ -130,7 +134,7 @@ It stores:
 
 ## AI Implementation
 
-For the MVP, CampusSense AI uses an explainable AI approach.
+For the MVP, EduPulse AI uses an explainable AI approach.
 
 ### Dropout Risk Scoring
 
@@ -153,7 +157,7 @@ The system uses keyword-based NLP-style classification to identify report catego
 
 ### Campus Intelligence
 
-CampusSense AI detects repeated patterns in campus reports and highlights risky locations.
+EduPulse AI detects repeated patterns in campus reports and highlights risky locations.
 
 ### Intervention Recommendation
 
