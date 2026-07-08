@@ -6,7 +6,7 @@ It helps institutions detect academic risk, student wellbeing concerns, safety i
 
 ## Live Demo
 
-🔗 **Live Project:** https://edupulse-ai-beige.vercel.app/
+🔗 **Live Project:** https://edupulse-ai-4149.vercel.app/
 
 ## Tagline
 
