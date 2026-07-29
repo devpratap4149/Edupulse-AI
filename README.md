@@ -4,16 +4,24 @@
 
 It helps institutions detect academic risk, student wellbeing concerns, safety issues, and campus hotspots before they become serious problems.
 
-## Live Demo
 
-🔗 **Live Project:** https://edupulse-ai-4149.vercel.app/
+
+## Live Links
+
+### Frontend Live Demo
+https://edupulse-ai-4149.vercel.app/
+
+### Backend API
+https://edupulse-ai-mu61.onrender.com/
+
+### GitHub Repository
+https://github.com/devpratap4149/Edupulse-AI
 
 ## Tagline
 
-"Every footprint tells a story. USIP listens before it becomes a dropout, a crisis, or a missed opportunity."
+"Every footprint tells a story. EduPulse AI listens before it becomes a dropout, a crisis, or a missed opportunity."
 
 ## Problem Statement
-
 Educational institutions generate large amounts of student and campus data every day, but most of this data remains disconnected across paperwork, spreadsheets, attendance systems, academic records, fee data, counselling notes, and manual communication channels.
 
 Because of this, institutions often identify student problems too late, such as:
@@ -171,41 +179,123 @@ The platform recommends suitable actions such as:
 
 ## Tech Stack
 
+### Frontend
+
 - React.js
 - Vite
 - JavaScript
 - CSS
 - React Router DOM
-- Dummy JSON data for MVP
+
+### Backend
+
+- Node.js
+- Express.js
+- REST API
+
+### Database
+
+- MongoDB Atlas
+- Mongoose
+
+### Deployment
+
+- Frontend: Vercel
+- Backend: Render
+- Database: MongoDB Atlas
+
+### Version Control
+
+- Git
+- GitHub
+
+
+## System Architecture
+
+User opens Vercel frontend
+        ↓
+React frontend sends API request
+        ↓
+Render backend receives request
+        ↓
+Express routes process request
+        ↓
+AI-style backend logic calculates result
+        ↓
+MongoDB Atlas stores/fetches data
+        ↓
+Response returns to React frontend
+        ↓
+Dashboard, Dropout Radar, SilentSOS, and Profile pages update
 
 ## Project Structure
 
+EduPulse AI
+│
+├── backend/
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── models/
+│   │   ├── Student.js
+│   │   └── SosReport.js
+│   │
+│   ├── routes/
+│   │   ├── studentRoutes.js
+│   │   └── sosRoutes.js
+│   │
+│   ├── utils/
+│   │   ├── riskEngine.js
+│   │   └── sosClassifier.js
+│   │
+│   ├── server.js
+│   ├── package.json
+│   └── .gitignore
+│
+├── src/
+│   │
+│   ├── assets/
+│   │   └── logo.png
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── DashboardCard.jsx
+│   │
+│   ├── data/
+│   │   ├── skills.js
+│   │   ├── campusLocations.js
+│   │   ├── interventions.js
+│   │   └── alerts.js
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── DropoutRadar.jsx
+│   │   ├── StudentProfile.jsx
+│   │   ├── SilentSOS.jsx
+│   │   ├── SkillPassport.jsx
+│   │   ├── CampusHeatmap.jsx
+│   │   ├── Interventions.jsx
+│   │   └── Alerts.jsx
+│   │
+│   ├── api.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+│
+├── public/
+├── package.json
+├── vite.config.js
+├── vercel.json
+└── README.md
+
+
+## APIs & Integrations
+
+EduPulse AI uses a live backend API built with Node.js and Express.js.
+
+### Backend Base URL
+
 ```txt
-src/
-│
-├── components/
-│   ├── Navbar.jsx
-│   └── DashboardCard.jsx
-│
-├── data/
-│   ├── students.js
-│   ├── sosReports.js
-│   ├── skills.js
-│   ├── campusLocations.js
-│   ├── interventions.js
-│   └── alerts.js
-│
-├── pages/
-│   ├── Home.jsx
-│   ├── Dashboard.jsx
-│   ├── DropoutRadar.jsx
-│   ├── StudentProfile.jsx
-│   ├── SilentSOS.jsx
-│   ├── SkillPassport.jsx
-│   ├── CampusHeatmap.jsx
-│   ├── Interventions.jsx
-│   └── Alerts.jsx
-│
-├── App.jsx
-├── main.jsx
-└── App.css
+https://edupulse-ai-mu61.onrender.com/api
