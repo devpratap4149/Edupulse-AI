@@ -17,6 +17,10 @@ app.use(express.json());
 // Routes
 app.use("/api/students", require("./routes/studentRoutes"));
 app.use("/api/sos", require("./routes/sosRoutes"));
+app.use("/api/skills", require("./routes/skillRoutes"));
+app.use("/api/interventions", require("./routes/interventionRoutes"));
+app.use("/api/heatmap", require("./routes/heatmapRoutes"));
+app.use("/api/alerts", require("./routes/alertRoutes"));
 
 // Test route
 app.get("/", (req, res) => {
